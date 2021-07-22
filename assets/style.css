@@ -1,0 +1,97 @@
+*{
+    font-family: "Poppins";
+    /* font-weight: 700; */
+    
+}
+#bg-video{
+    color: white;
+    height: 100vh;
+    min-width: 100%;
+}
+.vid-bg{
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+    min-width: 100%;
+    
+}
+
+/* Nav bar */
+
+#nav-bar{
+    position: fixed;
+    
+}
+.nav-bar-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2rem;
+    line-height: 10vh;
+}
+.nav-bar{
+    display: flex;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    
+}
+.nav-bar-list ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Banner */
+
+.banner{
+    height: 80vh;
+    min-width: 100%;
+}
+.banner-flex{
+    flex-direction: column;
+}
+.banner-text{
+    color: rgb(211, 209, 209);
+    margin-top: 2rem;
+}
+.banner-btn{
+    margin-top: 1.2rem;
+}
+
+/* Discover Section */
+
+.discover-sec{
+    min-height: 100vh;
+    background-color: whitesmoke;
+    min-width: 100%;
+}
+
+/* About Section */
+
+.container-sec{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    min-width: 100%;
+}
+
+/* Contact Section */
+
+.contact-sec{
+    background-color: #fff;
+    min-height: 100vh;
+    min-width: 100%;
+}
+.img-contact{
+    margin-top: 2.5rem;
+}
+
+/* credits */
+
+.credits{
+    background-color: black;
+    padding: 0.5rem;
+    height: 5rem;
+    min-width: 100%;
+    color: rgb(133, 133, 133);
+}

@@ -1,0 +1,12 @@
+span.discover-animation{
+    animation-name: dis ;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+@keyframes dis {
+    33%{
+        color: tomato;
+    }
+}
